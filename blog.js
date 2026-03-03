@@ -66,4 +66,5 @@ const blogSchema = new mongoose.Schema({
 
 }, { timestamps: true }); // createdAt & updatedAt auto
 
+
 module.exports = mongoose.model("Blog", blogSchema);
